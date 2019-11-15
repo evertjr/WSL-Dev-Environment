@@ -236,7 +236,7 @@ If you are using VS Code you can install the WSL Extension (Usually automaticall
 
 ## Windows Defender
 
-Windows Defender and other antivirus softwares can impact the performance of yarn and npm commands.
+Windows Defender and other antivirus softwares can impact the performance of WSL.
 
 To improve this, navigate to the folder `C:\Users\[yourUser]\AppData\Local\Packages\` and look for a folder named `CanonicalGroupLimited...` inside that folder navigate to `\LocalState\rootfs` and copy the full path adress to this folder.
 
