@@ -179,7 +179,7 @@ sudo apt-get install gcc-multilib lib32z1 lib32stdc++6
 ```
 ### Android SDK and Emulator
 
-Create the following folder structure `~/Android/Sdk` and inside Sdk folder download the latest android sdk command line tools:
+Create the following folder structure `~/Android/Sdk` and inside Sdk folder and download the latest android sdk command line tools:
 ```bash
 wget https://dl.google.com/android/repository/sdk-tools-linux-[go get it from google developers website].zip
 ```
