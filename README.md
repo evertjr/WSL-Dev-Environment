@@ -207,7 +207,7 @@ Install the latest Android Studio, open AVD Manager and create a Android Device 
 Name: ANDROID_HOME
 Value: C:\Users\[yourUser]\AppData\Local\Android\Sdk
 ```
-Now edit the PATH variable and include the following:
+- Now edit the PATH variable and include the following:
 ```bash
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\tools
