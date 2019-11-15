@@ -1,4 +1,4 @@
-## Developing React Apps using Windows Linux Subsystem (WSL 1)
+## Developing React Apps using Windows Subsystem for Linux (WSL 1)
 
 This guide is made to help set up a nice web develop environment using the WSL (Windows Linux Subsystem).
 
