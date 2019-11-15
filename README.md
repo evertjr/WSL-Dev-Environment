@@ -200,7 +200,7 @@ Install the latest Android Studio, open AVD Manager and create a Android Device 
 
 - Type `path` on start menu and include the following **User Variable**:
 ```bash
-Name: ANDRIOD_HOME
+Name: ANDROID_HOME
 Value: C:\Users\[yourUser]\AppData\Local\Android\Sdk
 ```
 Now edit the PATH variable and include the following:
@@ -212,7 +212,7 @@ Restart Windows to fully apply theses changes.
 
 ## React-Native Run
 
-To make this work you have to FIRST open AVD Manager and manually start your Android Device AND execute `adb devices` on a **powershell or cmd prompt**
+To make this work you have to FIRST open AVD Manager, manually start your Android Device AND execute `adb devices` on a **powershell or cmd prompt**
 
 This will start the server on the Windows Side and WSL will be able to see it.
 
