@@ -142,7 +142,7 @@ Restart the terminal one more time.
 
 *Obs: If you have Node and Yarn installed on Windows please uninstall to avoid potential path conflicts:*
 
-Install NodeJS
+Install Node.js
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
