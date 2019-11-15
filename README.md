@@ -210,7 +210,7 @@ Now edit the PATH variable and include the following:
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\tools
 ```
-Restart Windows to fully apply theses changes.
+Restart Windows to fully apply these changes.
 
 ## React-Native Run
 
@@ -231,6 +231,18 @@ If everything goes well you should see your App running on the Android Emulator.
 ## Microsoft Visual Studio Code
 
 If you are using VS Code you can install the WSL Extension (Usually automatically installed when it detects WSL instalation) and from Terminal you can execute `code .` from your project folder and it will automatically start VS Code on that folder with build in terminal running inside WSL.
+
+# Improve Performance
+
+## Windows Defender
+
+Windows Defender and other antivirus softwares can impact the performance of yarn and npm commands.
+
+To improve this, navigate to the folder `C:\Users\[yourUser]\AppData\Local\Packages\` and look for a folder named `CanonicalGroupLimited...` inside that folder navigate to `\LocalState\rootfs` and copy the full path adress to this folder.
+
+Now go to  `Settings > Update & Security > Windows Defender > Open Windows Defender Secutiry Central > Protection Against Viruses & Threats > Advanced Config… > Exclusions > Add or Remove > Add > Folder` and finally: paste the previous copied path.
+
+OBS: You can further improve performance by completely disabling Windows Defender realtime protection but its not very advisable as Windows is a highly targeted OS.
 
 
 ### End
