@@ -245,7 +245,13 @@ Now go to  `Settings > Update & Security > Windows Defender > Open Windows Defen
 OBS: You can further improve performance by completely disabling Windows Defender realtime protection but its not very advisable as Windows is a highly targeted OS.
 
 
-### End
+##### References
+https://docs.rocketseat.dev/ambiente-react-native/android/linux
+https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
+https://fcbrossard.net/blog/wsl-ubuntu-zsh-hyper-terminal
+https://stackoverflow.com/questions/49529696/yarn-error-eaccess-permission-denied-scandir-home-ubuntu-config-yarn-link
+https://docs.microsoft.com/pt-br/windows/wsl/install-win10
+
 [1]: hyper.is "Hyper Terminal"
 [Hyper Terminal]: http://hyper.is "Hyper Terminal"
 [Microsoft Terminal]: https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701 "Microsoft Terminal"
