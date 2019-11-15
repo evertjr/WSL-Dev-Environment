@@ -1,8 +1,10 @@
 ## Developing React Apps using Windows Subsystem for Linux (WSL 1)
 
-This guide is made to help set up a nice web develop environment using the WSL (Windows Linux Subsystem).
+This guide is made to help set up a nice web develop environment using the WSL (Windows Subsystem for Linux).
 
 *OBS: WSL 2 is currently in development and can be used on Windows Insider builds. it features full kernel access and much faster filesystem writing, but as of now the network between linux and windows is not as seamless as WSL 1,  so I wasn't  able to make android emulator integrate well enough . Microsoft is working on it.*
+
+This guide will be constantly updated.
 
 # Enabling WSL
 
