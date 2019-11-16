@@ -166,7 +166,7 @@ sudo chown -R $USER:$GROUP ~/.npm
 sudo chown -R $USER:$GROUP ~/.config
 sudo chown -R $USER:$GROUP ~/.yarn
 ```
-- Include this path on `~/.zshrc` file If for some reason "yarn global" extensions don't work
+- Include this path on `~/.zshrc` file If for some reason "yarn global" packages don't work
 ```bash
 export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin
 ```
