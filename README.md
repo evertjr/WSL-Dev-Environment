@@ -235,11 +235,11 @@ If everything goes well you should see your App running on the Android Emulator.
 
 - If you are using VS Code you can install the WSL Extension (Usually automatically installed when it detects WSL instalation) and from Terminal you can execute `code .` from your project folder and it will automatically start VS Code on that folder with built in terminal running inside WSL.
 
-- Make sure you go to your Extensions menu and hit "install on WSL" for every extensions with this option (expecially ESlint).
+- Make sure you go to your Extensions menu and hit "install on WSL" for every extensions with this option (especially ESlint).
 You can also install all locally installed extensions inside WSL by going to the Extensions view and selecting Install Local Extensions in WSL.
 [![Extension](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")
 
-- NOTE ABOUT NPM INSTALLS (EX: ESLINT --INIT): For some reason VS Code locks the project folders so npm can't rename folders while VS Code is open, so **you need to close VS Code before running npm installs**. The good news is that running `code .` again will open VS Code in the same state as before. This limitation will not happen in WSL 2. 
+- NOTE ABOUT NPM INSTALLS (INCLUDING: yarn eslint --init): For some reason (probably NTFS limitation) VS Code locks your project folders so npm can't rename them while the editor is open, so **you need to close VS Code before running npm installs**. The good news is that running `code .` again will open VS Code in the same state as before. *ps: This limitation will not happen in WSL 2*. 
 
 # Improve Performance
 
