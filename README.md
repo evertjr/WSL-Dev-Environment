@@ -75,7 +75,7 @@ shell: 'C:\\Windows\\System32\\wsl.exe',
 // by default ['--login'] will be used
 shellArgs: ['~'], 
 ```
-OBS: Windows Terminal provides and tab button so you can choose which terminal to open.
+Obs: Windows Terminal provides a tab button so you can choose which terminal to open.
 
 #### ZSH and Oh My ZSH
 
@@ -130,13 +130,13 @@ Save, restart the terminal and install the plugins component:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
 ```
-Edit the **~/.zshrc** file again and include the following code at the end of file:
+Edit the **~/.zshrc** file again and include the following code at the end of the file:
 ```json
 zplugin light zdharma/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 ```
-Restart the terminal one more time.
+Restart the terminal again.
 
 # React / React Native Dev Environment
 
