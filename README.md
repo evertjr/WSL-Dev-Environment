@@ -237,6 +237,7 @@ If everything goes well you should see your App running on the Android Emulator.
 
 - Make sure you go to your Extensions menu and hit "install on WSL" for every extensions with this option (expecially ESlint).
 You can also install all locally installed extensions inside WSL by going to the Extensions view and selecting Install Local Extensions in WSL.
+[![Extension](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")
 
 # Improve Performance
 
