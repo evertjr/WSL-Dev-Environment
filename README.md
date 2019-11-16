@@ -186,8 +186,6 @@ wget https://dl.google.com/android/repository/sdk-tools-linux-[go get it from go
 ```
 Extract the file so you can get the` /tools` folder.
 
-**Note: You can access the linux filesystem from Windows explorer using `\\wsl$`**
-
 Edit the `~/.zshrc` file again and include the following code at the beggining of the file:
 ```bash
 export ANDROID_HOME=~/Android/Sdk
@@ -240,6 +238,8 @@ You can also install all locally installed extensions inside WSL by going to the
 [![Extension](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")
 
 - NOTE ABOUT NPM INSTALLS (INCLUDING: yarn eslint --init): For some reason (probably NTFS limitation) VS Code locks your project folders so npm can't rename them while the editor is open, so **you need to close VS Code before running npm installs**. The good news is that running `code .` again will open VS Code in the same state as before. *ps: This limitation will not happen in WSL 2*. 
+
+**Tip: You can access the linux filesystem from Windows explorer using `\\wsl$`**
 
 # Improve Performance
 
