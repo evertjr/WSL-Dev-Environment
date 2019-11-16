@@ -239,6 +239,8 @@ If everything goes well you should see your App running on the Android Emulator.
 You can also install all locally installed extensions inside WSL by going to the Extensions view and selecting Install Local Extensions in WSL.
 [![Extension](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")
 
+- NOTE ABOUT NPM INSTALLS (EX: ESLINT --INIT): For some reason VS Code locks the project folders so npm can't rename folders while VS Code is open, so if you need to close VS Code before runnning npm installs.  
+
 # Improve Performance
 
 ## Windows Defender
