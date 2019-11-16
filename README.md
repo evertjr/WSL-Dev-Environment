@@ -166,7 +166,7 @@ sudo chown -R $USER:$GROUP ~/.npm
 sudo chown -R $USER:$GROUP ~/.config
 sudo chown -R $USER:$GROUP ~/.yarn
 ```
-- Include this path on `~/.zshrc` file If for some reason "yarn global" packages don't work
+- Include this path on `~/.zshrc` file if for some reason "yarn global" packages don't work
 ```bash
 export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin
 ```
@@ -229,7 +229,7 @@ List of devices attached
 emulator-5554   device
 ```
 
-Now on your WSL Terminal, you can execute `react-native start` and on another instance `react-native run-android`
+Now from WSL Terminal, you can execute `react-native start` and on another instance `react-native run-android`
 
 If everything goes well you should see your App running on the Android Emulator.
 
@@ -241,7 +241,7 @@ If everything goes well you should see your App running on the Android Emulator.
 You can also install all locally installed extensions inside WSL by going to the Extensions view and selecting Install Local Extensions in WSL.
 [![Extension](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")](https://code.visualstudio.com/assets/docs/remote/wsl/wsl-disabled-extensions.png "Extension")
 
-- NOTE ABOUT NPM INSTALLS (INCLUDING: yarn eslint --init): For some reason (probably NTFS limitation) VS Code locks your project folders so npm can't rename them while the editor is open, so **you need to close VS Code before running npm installs**. The good news is that running `code .` again will open VS Code in the same state as before. *ps: This limitation will not happen in WSL 2*. 
+- NOTE ABOUT NPM INSTALLS (INCLUDING: yarn eslint --init): For some reason (probably NTFS limitation) VS Code locks your project folders so npm can't rename them while the editor is open, so if you receive permissions errors during installations of npm packages **you need to close VS Code and retry from terminal**. The good news is that running `code .` again will open VS Code in the same state as before. *ps: This limitation will not happen in WSL 2*. 
 
 **Tip: You can access the linux filesystem from Windows explorer using `\\wsl$`**
 
