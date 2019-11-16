@@ -4,9 +4,9 @@ This guide is made to help set up a nice web develop environment using the WSL (
 
 *OBS: WSL 2 is currently in development and can be used on Windows Insider builds. It features full kernel access and much faster filesystem writing, but as for now the network between linux and windows is not as seamless as WSL 1,  so I wasn't  able to make android emulator integrate well enough . Microsoft is working on it. Meanwhile we're gonna use the current release of WSL as its limitations don't really impact the current web development workflow.*
 
-This guide will be constantly updated.
+Everything was tested using a stable release of Windows 10 Pro 64bits (version 1909) and Ubuntu 18.04 LTS downloaded from Windows Store.
 
-Everything was tested using a stable release of Windows 10 Pro 64bits (version 1909).
+This guide will be constantly updated.
 
 # Enabling WSL
 
