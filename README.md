@@ -138,7 +138,7 @@ zplugin light zsh-users/zsh-completions
 ```
 Restart the terminal one more time.
 
-# React Native Dev Enviroment
+# React / React Native Dev Enviroment
 
 *Obs: If you have Node and Yarn installed on Windows please uninstall to avoid potential path conflicts:*
 
