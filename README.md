@@ -233,7 +233,7 @@ If everything goes well you should see your App running on the Android Emulator.
 
 ## Microsoft Visual Studio Code
 
-- If you are using VS Code you can install the WSL Extension (Usually automatically installed when it detects WSL instalation) and from Terminal you can execute `code .` from your project folder and it will automatically start VS Code on that folder with build in terminal running inside WSL.
+- If you are using VS Code you can install the WSL Extension (Usually automatically installed when it detects WSL instalation) and from Terminal you can execute `code .` from your project folder and it will automatically start VS Code on that folder with built in terminal running inside WSL.
 
 - Make sure you go to your Extensions menu and hit "install on WSL" for every extensions with this option (expecially ESlint).
 You can also install all locally installed extensions inside WSL by going to the Extensions view and selecting Install Local Extensions in WSL.
