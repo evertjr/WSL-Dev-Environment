@@ -166,6 +166,10 @@ sudo chown -R $USER:$GROUP ~/.npm
 sudo chown -R $USER:$GROUP ~/.config
 sudo chown -R $USER:$GROUP ~/.yarn
 ```
+- Include this path on `~/.zshrc` file If for some reason "yarn global" extensions don't work
+```bash
+export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin
+```
 
 Install JDK:
 ```bash
@@ -260,6 +264,7 @@ https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
 https://fcbrossard.net/blog/wsl-ubuntu-zsh-hyper-terminal
 https://stackoverflow.com/questions/49529696/yarn-error-eaccess-permission-denied-scandir-home-ubuntu-config-yarn-link
 https://docs.microsoft.com/pt-br/windows/wsl/install-win10
+https://stackoverflow.com/questions/40317578/yarn-global-command-not-working
 
 [1]: hyper.is "Hyper Terminal"
 [Hyper Terminal]: http://hyper.is "Hyper Terminal"
