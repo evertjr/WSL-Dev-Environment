@@ -219,7 +219,7 @@ Restart Windows to fully apply these changes.
 
 ## React-Native Run
 
-To make this work you have to FIRST open AVD Manager, manually start your Android Device AND execute `adb devices` on a **powershell or cmd prompt**
+Now execute `adb.exe devices` on terminal (note the ".exe")
 
 This will start the server on the Windows Side and WSL will be able to see it.
 
@@ -229,7 +229,7 @@ List of devices attached
 emulator-5554   device
 ```
 
-Now from WSL Terminal, you can execute `react-native start` and on another instance `react-native run-android`
+Now you can execute `react-native start` and on another instance `react-native run-android`
 
 If everything goes well you should see your App running on the Android Emulator.
 
